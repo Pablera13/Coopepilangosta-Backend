@@ -39,7 +39,7 @@ namespace CoopepilangostaApi.Controllers
         }
 
         [HttpGet("checkCedula")]
-        public bool checkCedula(int id)
+        public bool checkCedula(long id)
         {
             return _costumerRepository.checkCedula(id);
         }

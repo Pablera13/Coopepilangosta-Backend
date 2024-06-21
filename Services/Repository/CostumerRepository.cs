@@ -45,7 +45,7 @@ namespace Services.Repository
             }
         }
 
-        public bool checkCedula(int cedula) {
+        public bool checkCedula(long cedula) {
              var costumerFound = _context.costumers.FirstOrDefault(costumer => costumer.cedulaJuridica == cedula);
             if (costumerFound == null)
             {

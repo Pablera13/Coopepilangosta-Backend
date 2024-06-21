@@ -11,6 +11,6 @@ namespace Services.IRepository
     {
         public Task<List<Costumer>> GetAllData();
         public int createCostumer(Costumer newCostumer);
-        public bool checkCedula(int cedula);
+        public bool checkCedula(long cedula);
     }
 }
