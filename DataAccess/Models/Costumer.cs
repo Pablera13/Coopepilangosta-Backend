@@ -9,7 +9,7 @@ namespace DataAccess.Models
     public class Costumer
     {
         public int id { get; set; }
-        public int cedulaJuridica { get; set; }
+        public long cedulaJuridica { get; set; }
         public string name { get; set; }
         public string province { get; set; }
         public string canton { get; set; }
